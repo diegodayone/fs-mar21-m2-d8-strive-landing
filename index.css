@@ -1,0 +1,125 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "EB Garamond", sans-serif;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.strive-primary {
+    color: #00ff84;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.btn-strive {
+    padding: 1rem 1.5rem;
+    background-color: #0d0d0d;
+    font-weight: 800;
+    min-width: 330px;
+    color:#00ff84;
+    border: 3px solid transparent;
+    border-radius: 0.3rem;
+}
+
+.btn-strive--primary {
+    color:#0d0d0d;
+    background-color: #00ff84;
+    font-size:1.4rem;
+
+}
+
+.main-section {
+    min-height: 100vh;
+    background-image: url("/assets/smile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.main-section::before {
+ /* content: ""; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.main-section nav {
+    /* background-color: rgba(173, 216, 230, 0.4); */
+    padding-top: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.hero {
+    color:white;
+}
+
+.hero h1 {
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.hero h1 + p {
+    font-size: 22px;
+}
+
+
+
+.about-us {
+    padding-top: 3rem;
+    padding-bottom:3rem;
+    background-color: #0d0e0ecc;
+    /* position:absolute;
+    bottom:0;
+    left:0;
+    right: 0; */
+    color:white;
+}
+
+#next-batches .date .card {
+    height: 110px;
+    width: 110px;
+    border-radius: 20px;
+    padding: 0 1rem;
+    font-size:1.2rem;
+    background-color: white;
+    color: #0d0e0e;
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#next-batches .date .card .number {
+    font-size:3.5rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+}
+
+#next-batches .date .card.card--dark {
+    background-color: #0d0e0e;
+    color: white
+}
+
+
+@media(min-width: 1116px) {
+    .main-section {
+        background-size: 130%;
+    }
+}
+
